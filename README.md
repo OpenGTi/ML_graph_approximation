@@ -15,7 +15,8 @@ To read the papers, navigate to the respective folder and open the desired docum
 
 ## Additional Resources
 - [Link to related projects or websites]
-- https://www.linkedin.com/in/wai-leung-ng-5b1ab3214/
+
 
 ## Contact Information
 For any inquiries or feedback, please contact the author at [opengti@icloud.com].
+- https://www.linkedin.com/in/wai-leung-ng-5b1ab3214/
