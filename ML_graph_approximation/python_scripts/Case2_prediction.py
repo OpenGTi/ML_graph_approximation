@@ -10,7 +10,8 @@ df_new = pd.read_excel("datafiles/guess.xlsx")
 
 variable_0 = "log_k"
 variable_1 = "log_Eb_Es"
-variable_2 = "log_L_d"
+variable_2 = "log_L_d" # for GPR prediction
+# variable_2 = "L_d" # for FCNN prediction
 
 # Extract features from df_new (make sure columns match the original training features)
 X_new = df_new[[variable_0, variable_1, variable_2]].values
