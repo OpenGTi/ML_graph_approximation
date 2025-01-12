@@ -8,7 +8,7 @@ This repository contains technical papers published by the author. Readers can b
 
 ## Folder Structure
 - **[ICTG 2024]**: Description of the papers in this folder.
-- **[TTC Symposium 2025]**: Description of the papers in this folder.
+- **[ML_graph_approximation]**: This folder contain the materials for the paper titled "Machine Learning Approach for Approximating Design Parameters from Engineering Graphs" published in Tetra Tech East Coast Symposium 2025.
 
 ## Accessing Papers
 To read the papers, navigate to the respective folder and open the desired document. Most papers are available in PDF format, while some may also include source files (e.g., LaTeX).
@@ -18,5 +18,4 @@ To read the papers, navigate to the respective folder and open the desired docum
 
 
 ## Contact Information
-For any inquiries or feedback, please contact the author at [opengti@icloud.com].
-- https://www.linkedin.com/in/wai-leung-ng-5b1ab3214/
+For any inquiries or feedback, please contact the author at [opengti@icloud.com] or [https://www.linkedin.com/in/wai-leung-ng-5b1ab3214/]
