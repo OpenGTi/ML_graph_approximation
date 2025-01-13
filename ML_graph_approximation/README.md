@@ -25,7 +25,8 @@ This repository contains the technical paper titled **_Machine Learning Approach
 
 3. **Prediction Script**  
    - Use the Python script `Case2_prediction.py` (or an equivalent script) to perform predictions.  
-   - Ensure that the model and scaler files are either in the same folder as `Case2_prediction.py` or that you provide the correct file paths in the script.
+   - You may use the excel file `new_data_example.xlsx` as an example. This excel contain a simple table with all the independent variables.
+   - Once `Case2_prediction.py` is opened, follow the step-by-step precedures to perform the prediction. Finally the results will be saved in a seperate excel file.
 
 4. **Performance Note**  
    In the author's opinion, the FCNN model provides better overall prediction performance compared to the GPR model.
@@ -39,27 +40,14 @@ This repository contains the technical paper titled **_Machine Learning Approach
 
 Below is an example of how to load either the GPR or FCNN model, transform new data, and generate predictions:
 
-```python
-from joblib import load
-import joblib
-from tensorflow.keras.models import load_model
-
-# Load the scaler
-scaler = load("name_of_your_scaler_file.joblib")
-
-# Suppose you have new input data stored in X_new
-X_new_scaled = scaler.transform(X_new)
-
-# Load the pre-trained ML model (choose either one)
-model = joblib.load("name_of_GPR_model_file.joblib")  # GPR example
-# model = load_model("name_of_FCNN_model_file.h5")    # FCNN example
-
-# Predict on new data
-y_new_pred = model.predict(X_new_scaled)
-y_new_pred = y_new_pred.reshape(-1, 1)
-
-print(f"Prediction for new entries is:\n {y_new_pred}")
-```
+   - Format of input file:
+   - ![image](https://github.com/user-attachments/assets/10ca827f-e772-4729-bbc2-15a5413db0fd)
+    
+   - Outlook of the app:
+   - ![image](https://github.com/user-attachments/assets/bc622fe2-d1d5-47b9-9f33-1de8fcfb1235)
+     
+   - Output:
+   - ![image](https://github.com/user-attachments/assets/3bf163a9-59e9-4aa7-9166-4904bf5cbd83)
 
 ## Additional Resources
 Excel minimum requirement:
