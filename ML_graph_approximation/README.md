@@ -23,7 +23,7 @@ This repository contains the technical paper titled **_Machine Learning Approach
    - The GPR model is saved in `.joblib` format, and the FCNN model is saved in `.h5` format.  
    - Each model has an associated scaler file required for predicting Rb values accurately.
 
-3. **Prediction Script**  
+3. **Prediction App**  
    - Use the Python script `Case2_prediction.py` (or an equivalent script) to perform predictions.  
    - You may use the excel file `new_data_example.xlsx` as an example. This excel contain a simple table with all the independent variables.
    - Once `Case2_prediction.py` is opened, follow the step-by-step precedures to perform the prediction. Finally the results will be saved in a seperate excel file.
@@ -36,7 +36,7 @@ This repository contains the technical paper titled **_Machine Learning Approach
 
 ---
 
-## Standard Scripts for Prediction
+## Example
 
 Below is an example of how to load either the GPR or FCNN model, transform new data, and generate predictions:
 
