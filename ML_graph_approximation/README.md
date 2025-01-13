@@ -50,13 +50,7 @@ Below is an example of how to load either the GPR or FCNN model, transform new d
    - ![image](https://github.com/user-attachments/assets/3bf163a9-59e9-4aa7-9166-4904bf5cbd83)
 
 ## Additional Resources
-Excel minimum requirement:
-- ![image](https://github.com/user-attachments/assets/d47e9d70-d06d-4276-a901-cd212319749e)
-- Users must have the Python Add-in installed in advance.
-- Enterprise and Business Channel: Version 2408 (Build 17928.20114)
-- Monthly Enterprise Channel: Version 2408 (Build 17928.20216)
-- Family and Personal Channel: Version 2405 (Build 17628.20164)
-- Education (Insider Program Current Channel): Version 2405 or higher
+NIL
 
 ## Contact Information
 For any inquiries or feedback, please contact the author at [opengti@icloud.com] or [https://www.linkedin.com/in/wai-leung-ng-5b1ab3214/]
