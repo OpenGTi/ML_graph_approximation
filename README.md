@@ -49,7 +49,7 @@ Below is an example of how to load either the GPR or FCNN model, transform new d
    - Output:
    - ![image](https://github.com/user-attachments/assets/3bf163a9-59e9-4aa7-9166-4904bf5cbd83)
 
-## Additional Resources
+## License
 All files are distributed under GNU AGPL v3.
 
 ## Contact Information
