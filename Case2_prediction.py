@@ -57,7 +57,7 @@ def perform_prediction(input_file, output_folder, file_name, model_choice):
 
 # Create the tkinter app
 root = tk.Tk()
-root.title("Machine Learning Prediction App")
+root.title("Machine Learning Prediction App (powered by Open GTi")
 
 # Input file selection
 def choose_input_file():
