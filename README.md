@@ -41,13 +41,13 @@ This repository contains the technical paper titled **_Machine Learning Approach
 Below is an example of how to load either the GPR or FCNN model, transform new data, and generate predictions:
 
    - Format of input file:
-   - ![image](https://github.com/user-attachments/assets/10ca827f-e772-4729-bbc2-15a5413db0fd)
-    
-   - Outlook of the app:
+   - ![image](https://github.com/user-attachments/assets/3d66c1e2-1796-4984-9251-27d0cd9886b5)
+
+   - Prediction App:
    - ![image](https://github.com/user-attachments/assets/bc622fe2-d1d5-47b9-9f33-1de8fcfb1235)
      
-   - Output:
-   - ![image](https://github.com/user-attachments/assets/3bf163a9-59e9-4aa7-9166-4904bf5cbd83)
+   - Output file:
+   - ![image](https://github.com/user-attachments/assets/f90f538d-a720-457e-99ac-d372d82fdc1f)
 
 ## License
 All files are distributed under GNU AGPL v3.
