@@ -45,7 +45,7 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
 # Save the scaler for future use
-joblib.dump(scaler, 'scaler_fcnn_final.joblib')
+joblib.dump(scaler, 'scaler_fcnn.joblib')
 print("Scaler has been saved successfully.")
 
 # If you want to scale y (optional), do:
@@ -91,8 +91,8 @@ print(f"Neural Network Mean Squared Error: {mse_fcnn:.2e}")
 print(f"Neural Network R^2 Score: {r2_fcnn:.4f}")
 
 # Save the model
-model.save("fcnn_regression_model_final.h5")
-print("Model saved to fcnn_regression_model.h5")
+model.save("fcnn_regression_model.keras")
+print("Model saved to fcnn_regression_model.keras")
 
 # ==========================
 # 4. Visualization with Matplotlib

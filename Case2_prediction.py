@@ -31,12 +31,12 @@ def perform_prediction(input_file, output_folder, file_name, model_choice):
         X_new = df_new[[variable_0, variable_1, variable_2]].values
 
         # Load the scaler based on the model choice
-        scaler_file = "models/scaler_gpr_final2.joblib" if model_choice == "GPR" else "models/scaler_fcnn_final.joblib"
+        scaler_file = "models/scaler_gpr_final2.joblib" if model_choice == "GPR" else "models/scaler_fcnn.joblib"
         scaler = load(scaler_file)
         X_new_scaled = scaler.transform(X_new)
 
         # Load the model
-        model_file = "models/gaussian_process_model_final2.joblib" if model_choice == "GPR" else "models/fcnn_regression_model_final.h5"
+        model_file = "models/gaussian_process_model_final2.joblib" if model_choice == "GPR" else "models/fcnn_regression_model.keras"
         if model_choice == "GPR":
             model = joblib.load(model_file)
             y_new_pred = model.predict(X_new_scaled).reshape(-1, 1)

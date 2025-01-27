@@ -24,8 +24,8 @@ def custom_optimizer(obj_func, initial_theta, bounds):
     return result[0], result[1]  # Return only the optimized parameters and function value
 
 ################
-# model = load_model("fcnn_regression_model_final.h5")
-# scaler = load("scaler_fcnn_final.joblib")
+# model = load_model("fcnn_regression_model.keras")
+# scaler = load("scaler_fcnn.joblib")
 ###############
 model = joblib.load('gaussian_process_model_final2.joblib')
 scaler = load("scaler_gpr_final2.joblib")
