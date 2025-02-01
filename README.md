@@ -20,7 +20,7 @@ This repository contains the technical paper titled **_Machine Learning Approach
 
 2. **Models and Files**  
    - Two trained ML models (GPR and FCNN) are available in the `models` folder.  
-   - The GPR model is saved in `.joblib` format, and the FCNN model is saved in `.h5` format.  
+   - The GPR model is saved in `.joblib` format, and the FCNN model is saved in `.keras` format.  
    - Each model has an associated scaler file required for predicting Rb values accurately.
 
 3. **Prediction App**  
@@ -48,6 +48,9 @@ Below is an example of how to load either the GPR or FCNN model, transform new d
      
    - Output file:
    - ![image](https://github.com/user-attachments/assets/f90f538d-a720-457e-99ac-d372d82fdc1f)
+
+## Related Video
+YouTube: [https://www.youtube.com/watch?v=YmH2N9N_Vtc&t=260s]
 
 ## License
 All files are distributed under GNU AGPL v3.
