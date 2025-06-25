@@ -8,7 +8,7 @@ This repository contains the technical paper titled **_Machine Learning Approach
   Contains all raw data extracted from the engineering graphs studied in the paper.
 
 - **python_scripts**  
-  Contains the Python scripts used to derive the required polynomials and non-linear functions. This folder includes two Python files for training Gaussian Process Regression (GPR) and Fully Connected Neural Network (FCNN) models, as well as scripts for plotting and parameter prediction.
+  Contains the Python scripts used to derive the required polynomials and non-linear functions.
 
 - **models**  
   Holds the final machine learning models (GPR and FCNN) along with their corresponding scaler files.
